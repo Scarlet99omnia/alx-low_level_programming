@@ -32,3 +32,7 @@ while (s2[ci] != '\0')
 {
 conct[i] = s2[ci];
 i++, ci++;
+}
+conct[i] = '\0';
+return (conct);
+}
